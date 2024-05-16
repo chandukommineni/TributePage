@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+.hero-container{
+    
+    height: 30rem;
+    background-image: url("./images/pexels-pixabay-33109.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.heroOuter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.hero{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+}
+.hero h2{ 
+    font-weight: bolder;
+  
+    /* border: 2px solid white; */
+}
+.hero p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.hero div{
+  
+    background-image: url("./images/motherTeresa.jpg");
+    width: 250px;
+    height: 250px;
+    /* background-position: center; */
+    background-size: contain;
+    /* background-attachment: fixed; */
+    border-radius: 50%;
+    background-blend-mode: multiply;
+
+
+}
+.option-container ul{
+     display: flex;
+     align-items: center;
+     width: calc(100vw-50px);
+     justify-content: space-between;
+
+}
+.option-container ul li{
+    list-style-type: none;
+    font-weight: bolder;
+    margin: 20px 0px;
+    font-size: large;
+
+ 
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.textstyle{
+    font-weight: bold;
+    padding: 0px 50px;
+}
+.home{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer i{
+    font-size: 1.8rem;
+    padding: 0px 7px;
+}
+.footer p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-container{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
